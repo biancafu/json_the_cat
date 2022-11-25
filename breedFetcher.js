@@ -1,9 +1,5 @@
 const request = require('request');
 
-// if (breed === undefined) {
-//   console.log("You forgot to put an input!");
-//   return;
-// }
 
 const fetchBreedDescription = function(breedName, callback) {
   const api = `https://api.thecatapi.com/v1/breeds/search?q=${breedName}`;
